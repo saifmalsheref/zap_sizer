@@ -1,0 +1,21 @@
+name: zap_sizer
+description: |
+  Zap Sizer is a Flutter utility package designed to simplify responsive design and sizing in Flutter applications. It provides widgets and extensions for building adaptive UIs that seamlessly adjust to different devices, screen sizes, and orientations. Enhance your Flutter app's responsiveness with Zap Sizer.
+version: 0.0.1
+homepage: https://github.com/saifmalsheref/zap_sizer
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  device_preview: ^1.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
